@@ -19,7 +19,7 @@ class TaskPages extends Component<TaskPagesProps> {
 
   render() {
     return (
-      <div className="w-full grid grid-cols-3 gap-4 py-10 px-20">
+      <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-10 bg-gray-100">
         {this.renderTaskList()}
       </div>
     );
